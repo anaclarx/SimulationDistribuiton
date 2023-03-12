@@ -7,8 +7,8 @@ public class Robot extends GridTurtlebot {
 
     public static int idBot = 0;
 
-    public Robot(int id, String name, int field, int debug, int[] pos, int r, int c) {
-        super(idBot, "components.Robot" + idBot, field, debug, pos, r, c);
+    public Robot(int field, int debug, int[] pos, int r, int c) {
+        super(idBot++, "components.Robot" + idBot, field, debug, pos, r, c);
     }
 
     @Override
