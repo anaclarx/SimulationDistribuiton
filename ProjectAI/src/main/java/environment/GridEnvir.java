@@ -38,7 +38,7 @@ public class GridEnvir extends SimFactory {
         Truck truck = new Truck(1,1, environment.getPlace(), environment.getRows(), environment.getColumns());
         truck.randomOrientation();
         lrobot.add(truck);
-        addNewComponent(truck, new int[]{255,255,0});
+        addNewComponent(truck);
     }
 
     @Override
