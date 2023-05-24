@@ -65,6 +65,3 @@ public class GridEnvir extends SimFactory {
     }
 }
 
-//como diferenciar os obstaculos entre si.
-//como atualizar o grid/
-//o que é a propriedade seed?
